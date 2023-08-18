@@ -14,6 +14,8 @@ module.exports = {
   },
   plugins: ['vue', 'tailwindcss'],
   rules: {
+    'quote-props': 'off',
+    'quotes': 'off',
     'linebreak-style': 'off',
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': [0, { 'packageDir ': './src/' }],
