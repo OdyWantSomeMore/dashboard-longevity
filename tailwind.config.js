@@ -7,9 +7,25 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
+    colors: {
+      'white': '#FCFCFC',
+      'black': '#000',
+      'gray': '#252C37',
+      'light-gray': '#FCFCFC',
+      'dark': '#1D202D',
+      'hover': '#EAEDF5',
+      'def': '#2D3134',
+      'menu': '#848888',
+      'blue': '#4491BF',
+      'background': '#F5F4F3',
+      'red': '#EE636D',
+      'dark-blue': '#3B6A76',
+      'dark-red': '#A24046',
+    },
     extend: {
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        sans: ['SF', ...defaultTheme.fontFamily.sans],
+        pop: ['Poppins'],
       },
     },
   },
