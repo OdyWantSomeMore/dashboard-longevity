@@ -48,7 +48,7 @@ export default {
           <h1 to="/" class="drop-text flex items-center hover:text-def duration-200"><HeartIcon class="mr-2" />Manage Membership</h1>
           <h1 to="/" class="drop-text flex items-center hover:text-def duration-200"><UserAddIcon class="mr-2" />Invite Creators</h1>
           <div class="flex-grow border-t-2 border-background"></div>
-          <h1 to="/" class="drop-text hover:text-def duration-200">Log Out</h1>
+          <h1 to="/" class="drop-text hover:text-def duration-200"><router-link :to="{name: 'login'}">Log Out</router-link></h1>
         </div>
       </div>
     </div>

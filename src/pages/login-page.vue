@@ -26,9 +26,9 @@
         <span class="text-right text-sm">Forgot your password?</span>
       </div>
       <div class="flex flex-col justify-center gap-3 mt-7">
-        <router-link :to="{name: 'home'}">Submit</router-link>
+        <router-link class="text-center mt-5 rounded-lg bg-green p-3 text-white hover:bg-light-green duration-200" :to="{name: 'home'}">Submit</router-link>
         <span class="text-center">or</span>
-        <router-link :to="{name: 'signup'}">Sign Up</router-link>
+        <router-link class="text-center rounded-lg bg-menu p-3 text-white hover:bg-log duration-200" :to="{name: 'signup'}">Sign Up</router-link>
       </div>
     </div>
   </div>

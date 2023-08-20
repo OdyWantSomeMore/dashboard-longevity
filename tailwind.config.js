@@ -21,6 +21,9 @@ module.exports = {
       'red': '#EE636D',
       'dark-blue': '#3B6A76',
       'dark-red': '#A24046',
+      'green': '#1BA753',
+      'light-green': '#24BC62',
+      'log': '#ADB2B2',
     },
     extend: {
       fontFamily: {

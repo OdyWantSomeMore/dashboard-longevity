@@ -3,7 +3,7 @@
     <div
       class="w-full max-w-[440px] rounded-lg bg-white pt-10 pb-10 p-7 text-def justify-center flex flex-col"
     >
-      <h1 class="text-center text-2xl font-extrabold mb-7">Login</h1>
+      <h1 class="text-center text-2xl font-extrabold mb-7">Sign Up</h1>
       <input class="rounded-lg bg-hover p-3 mb-5" type="text" placeholder="Email" />
       <input class="rounded-lg bg-hover p-3 mb-3" type="text" placeholder="Password" />
       <div class="flex justify-between">
@@ -14,9 +14,9 @@
         <span class="text-right text-sm">Forgot your password?</span>
       </div>
       <div class="flex flex-col justify-center gap-3 mt-7">
-        <button>Submit</button>
+        <router-link class="text-center mt-5 rounded-lg bg-green p-3 text-white hover:bg-light-green duration-200" :to="{ name: 'home' }">Sign Up</router-link>
         <span class="text-center">or</span>
-        <router-link :to="{ name: 'home' }">Sign Up</router-link>
+        <router-link class="text-center rounded-lg bg-menu p-3 text-white hover:bg-log duration-200" :to="{name: 'login'}">Login</router-link>
       </div>
     </div>
   </div>
